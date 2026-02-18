@@ -1,0 +1,6 @@
+2026-02-18 07:01:02 INFO  service=api msg="request" method=GET path=/health status=200 ms=12
+2026-02-18 07:01:05 ERROR service=api msg="request failed" method=POST path=/login status=500 ms=231
+2026-02-18 07:01:08 WARNING service=worker msg="retrying job" job_id=778 ms=900
+2026-02-18 07:01:10 ERROR service=api msg="request failed" method=GET path=/users status=502 ms=180
+2026-02-18 07:01:12 INFO  service=db msg="query" query="SELECT 1" ms=3
+2026-02-18 07:01:15 ERROR service=api msg="timeout" method=GET path=/users status=504 ms=3000

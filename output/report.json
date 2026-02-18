@@ -1,0 +1,21 @@
+{
+  "generated_at": "2026-02-18T09:50:37.013194Z",
+  "file": "data/sample.log",
+  "total_lines": 6,
+  "parsed_lines": 4,
+  "invalid_lines": 2,
+  "level_counts": {
+    "INFO": 1,
+    "ERROR": 3
+  },
+  "top_error_paths": [
+    [
+      "/users",
+      2
+    ],
+    [
+      "/login",
+      1
+    ]
+  ]
+}

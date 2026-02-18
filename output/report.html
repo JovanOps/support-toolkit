@@ -1,0 +1,33 @@
+
+    <html>
+    <head>
+        <title>Support Toolkit Report</title>
+        <style>
+            body { font-family: Arial; margin: 40px; }
+            table { border-collapse: collapse; width: 50%; }
+            th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            .error { color: red; }
+        </style>
+    </head>
+    <body>
+        <h1>Support Toolkit Report</h1>
+        <p><strong>File:</strong> data/sample.log</p>
+        <p><strong>Total lines:</strong> 6</p>
+        <p><strong>Parsed lines:</strong> 4</p>
+
+        <h2>Log Levels</h2>
+        <ul>
+            <li>INFO: 1</li>
+            <li>WARNING: 0</li>
+            <li class="error">ERROR: 3</li>
+        </ul>
+
+        <h2>Top ERROR Paths</h2>
+        <table>
+            <tr><th>Path</th><th>Count</th></tr>
+    <tr><td>/users</td><td>2</td></tr><tr><td>/login</td><td>1</td></tr>
+        </table>
+    </body>
+    </html>
+    
